@@ -1,0 +1,10 @@
+# Python dependencies for the training and validation pipeline
+# Pin versions to ensure reproducibility
+
+# Deep Learning
+tensorflow==2.15.0          # Keras 3 workaround in quantize.py requires TF 2.15+
+keras==2.15.0               # Keep keras 2.x for compatibility
+
+# Audio Processing
+scipy==1.11.4               # WAV file I/O
+numpy==1.24.3               # Array operations

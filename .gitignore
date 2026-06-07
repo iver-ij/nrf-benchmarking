@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Build outputs
+firmware/build/
+/build_*/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Large local assets
+training/datasets/
+
+# Model files (generated)
+# Keep model.keras but ignore intermediate files
+*.tflite
+!training/outputs/model.tflite
+training/outputs/temp_quant_model/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+training/outputs/c_reference_spectrogram.txt
+training/outputs/python_reference_spectrogram.txt
+!training/outputs/quantization_accuracy_summary.json
+benchmarks/power_summary.json
+/training/outputs/libtinyml_host_dsp.dylib
+/training/outputs/libtinyml_host_dsp.so
+/training/outputs/quantized_cross_platform_summary.synthetic.json
+/benchmarks/results/latency_claim_validation_latest.json
+/benchmarks/results/power_opt_*.json
+/benchmarks/results/power_opt_*.log
+/benchmarks/results/power_summary_*_default.json
+/benchmarks/results/power_summary_*_tuned.json
+/benchmarks/results/probe_cu.usbmodem*.json
+/benchmarks/results/probe_cu.usbmodem*.log
+/benchmarks/results/tmp_baseline_probe_*.json
+/benchmarks/results/tmp_baseline_probe_*.log
+/benchmarks/results/latency_live_*/
+/benchmarks/results/dual_core_live_*/
+/benchmarks/traces/*
+!/benchmarks/traces/README.md
+
+# Local-only WiFi/project overrides
+firmware/prj.local.conf
+
+# Local scratch assets
+/sound/
