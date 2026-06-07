@@ -1,0 +1,48 @@
+{
+  "generated_at_utc": "2026-03-07T00:39:18.256639+00:00",
+  "inputs": {
+    "inference_source": "firmware/src/inference.cpp",
+    "uart_log": "benchmarks/results/dual_core_runtime_uart.log",
+    "max_arena_kb": 256,
+    "build_dir": "/tmp/tinyml_build_verify_phase_inference_only",
+    "elf": null,
+    "max_total_ram_kb": 256,
+    "size_tool": "arm-zephyr-eabi-size",
+    "require_total_ram": true
+  },
+  "source_checks": {
+    "arena_expression": "50 * 1024",
+    "arena_size_bytes": 51200,
+    "arena_size_pass": true,
+    "static_arena_decl": true,
+    "static_interpreter_decl": true,
+    "allocate_tensors_called": true,
+    "static_alloc_pass": true,
+    "malloc_calls": 0,
+    "new_calls": 0,
+    "no_dynamic_alloc_pass": true
+  },
+  "runtime_checks": {
+    "uart_log_present": true,
+    "logged_arena_used_bytes": 27204,
+    "logged_arena_total_bytes": 51200,
+    "logged_arena_kb": 50,
+    "runtime_arena_pass": true
+  },
+  "binary_checks": {
+    "elf_path": "/tmp/tinyml_build_verify_phase_inference_only/firmware/zephyr/zephyr.elf",
+    "size_tool": "arm-zephyr-eabi-size",
+    "size_tool_resolved": "/opt/nordic/ncs/toolchains/b8efef2ad5/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-size",
+    "size_present": true,
+    "data_bytes": 1163,
+    "bss_bytes": 145271,
+    "total_ram_bytes": 146434,
+    "size_error": null,
+    "max_total_ram_bytes": 262144,
+    "total_ram_pass": true
+  },
+  "overall_pass": true,
+  "notes": [
+    "This verifies inference runtime memory constraints and, when a build/ELF is supplied, total firmware RAM via data+bss."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "trace_columns": {
+    "time": "Timestamp(ms)",
+    "current": "Current(uA)",
+    "power": null
+  },
+  "measurement": {
+    "sample_count": 6000001,
+    "median_dt_ms": 0.010000000000218279,
+    "estimated_sample_rate_hz": 99999.99999781721,
+    "voltage_v": 3.6,
+    "baseline_current_ma": 18.140188,
+    "baseline_power_mw": 65.3046768,
+    "activity_threshold_ma": 21.9808988824
+  },
+  "events": {
+    "count": 34,
+    "duration_ms": {
+      "mean": 107.99058823529379,
+      "min": 107.92000000000007,
+      "max": 108.04000000000087
+    },
+    "energy_uj": {
+      "mean": 11415.323853491209,
+      "std": 7.125267929650632,
+      "min": 11404.456657992389,
+      "max": 11446.652509397994
+    },
+    "avg_current_ma": 29.36250509815048
+  },
+  "phase_split_config": {
+    "source": "uart_phase_timing_markers",
+    "uart_log": "/tmp/ai_only_uart_20260307.log",
+    "uart_log_present": true,
+    "dsp_matches": 0,
+    "nn_matches": 0,
+    "phase_timing_matches": 11,
+    "dsp_ms_selected": 95.70327272727272,
+    "nn_ms_selected": 107.91863636363637,
+    "dsp_ms": 95.70327272727272,
+    "nn_ms": 107.91863636363637,
+    "phase_window_count": 11,
+    "manual_override": false
+  },
+  "detection": {
+    "selected_profile": "steady_inference",
+    "manual_thresholds": false,
+    "attempts": [
+      {
+        "profile": "burst",
+        "threshold_sigma": 4.0,
+        "min_delta_ma": 0.2,
+        "min_event_ms": 5.0,
+        "baseline_current_ma": 18.140188,
+        "activity_threshold_ma": 28.382083686399994,
+        "event_count": 0,
+        "mean_event_duration_ms": 0.0
+      },
+      {
+        "profile": "steady_inference",
+        "threshold_sigma": 1.5,
+        "min_delta_ma": 0.05,
+        "min_event_ms": 0.5,
+        "baseline_current_ma": 18.140188,
+        "activity_threshold_ma": 21.9808988824,
+        "event_count": 34,
+        "mean_event_duration_ms": 107.99058823529379
+      }
+    ]
+  },
+  "phase_energy_warning": {
+    "reason": "detected_event_window_shorter_than_full_pipeline",
+    "mean_event_duration_ms": 107.99058823529379,
+    "expected_pipeline_ms": 203.62190909090907,
+    "dsp_ms": 95.70327272727272,
+    "nn_ms": 107.91863636363637,
+    "notes": "Detected power windows are materially shorter than the UART-derived DSP+NN pipeline. Per-phase energy attribution is suppressed because the thresholded event likely captures only the highest-current subset of the full pipeline."
+  }
+}

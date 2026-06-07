@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-03-07T02:22:03.562926+00:00",
+  "inputs": {
+    "baseline": "benchmarks/results/latency_ab_20260217_210552/baseline_latency.json",
+    "current": "benchmarks/results/latency_ab_20260217_210552/current_latency.json"
+  },
+  "thresholds": {
+    "min_baseline_samples": 30,
+    "min_current_samples": 30,
+    "min_speedup_x": 300.0,
+    "min_reduction_percent": 99.67
+  },
+  "metrics": {
+    "baseline_samples": 32,
+    "current_samples": 51,
+    "baseline_mean_ms": 33565.625,
+    "current_mean_ms": 108.0,
+    "speedup_x": 310.7928240740741,
+    "reduction_percent": 99.67824224932501
+  },
+  "quality": {
+    "sample_quality_pass": true,
+    "claim_threshold_pass": true,
+    "overall_pass": true
+  }
+}

@@ -1,0 +1,176 @@
+
+--- TEST: Interference (Cat) ---
+Inference: 33554 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33560 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33556 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33562 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33562 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33554 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33561 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33556 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33554 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33561 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33565 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33564 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33560 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33565 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33565 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33568 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33572 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33571 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33566 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33575 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33570 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33575 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33569 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33579 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33577 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33574 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33563 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33567 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33568 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33572 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)
+
+--- TEST: Interference (Cat) ---
+Inference: 33566 ms | Confidence: 12%
+Correctly Ignored
+
+--- TEST: Target (ON) ---
+Inference: 33569 ms | Confidence: 97%
+Target Detected
+
+--- TEST: Silence ---
+Skipping AI: Signal too weak (Max: 0)

@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-05-30T10:20:33+00:00",
+  "raw_trace_policy": "Full PPK2 CSV exports are kept outside Git because each capture is about 166 MB.",
+  "logical_trace_directory": "benchmarks/traces/",
+  "source_trace_names": [
+    "ai+wifi.csv",
+    "ai-only.csv",
+    "dsp-only.csv",
+    "nn-only.csv"
+  ],
+  "bucket_ms": 50.0,
+  "derived_outputs": [
+    "docs/assets/ppk2-matched-runtime-traces.svg",
+    "docs/assets/ppk2-matched-runtime-traces.png",
+    "docs/assets/ppk2-isolated-stage-traces.svg",
+    "docs/assets/ppk2-isolated-stage-traces.png"
+  ],
+  "traces": {
+    "ai-only.csv": {
+      "file": "ai-only.csv",
+      "logical_path": "benchmarks/traces/ai-only.csv",
+      "size_bytes": 166169057,
+      "sha256": "0830adda82b1c01f1b0b3a7613a22831ed2fd672e69882e14cb65e75acbc06c0",
+      "sample_count": 6000001,
+      "duration_s": 60.0,
+      "sample_period_ms": 0.01,
+      "mean_current_ma": 21.6058762230934,
+      "min_current_ma": 11.525164,
+      "max_current_ma": 33.469598,
+      "bucket_ms": 50.0,
+      "bucket_count": 1201
+    },
+    "ai+wifi.csv": {
+      "file": "ai+wifi.csv",
+      "logical_path": "benchmarks/traces/ai+wifi.csv",
+      "size_bytes": 166169057,
+      "sha256": "3879d876a30f85a53ea5ddaf527f1e71131d37888f72294ecc3e2519adc6ee2f",
+      "sample_count": 6000001,
+      "duration_s": 60.0,
+      "sample_period_ms": 0.01,
+      "mean_current_ma": 22.674790274994898,
+      "min_current_ma": 13.896998,
+      "max_current_ma": 34.327648,
+      "bucket_ms": 50.0,
+      "bucket_count": 1201
+    },
+    "dsp-only.csv": {
+      "file": "dsp-only.csv",
+      "logical_path": "benchmarks/traces/dsp-only.csv",
+      "size_bytes": 166169057,
+      "sha256": "0d83c376d59c59479ef81a2d52c9421549cde732a27db82ac982fd98a6447f84",
+      "sample_count": 6000001,
+      "duration_s": 60.0,
+      "sample_period_ms": 0.01,
+      "mean_current_ma": 20.50523577381368,
+      "min_current_ma": 12.034739,
+      "max_current_ma": 26.306629,
+      "bucket_ms": 50.0,
+      "bucket_count": 1201
+    },
+    "nn-only.csv": {
+      "file": "nn-only.csv",
+      "logical_path": "benchmarks/traces/nn-only.csv",
+      "size_bytes": 166169057,
+      "sha256": "3e9d7f5e951ef4e56c71e2eccc057efb478538ad63254ff83f04b5b2230b20bc",
+      "sample_count": 6000001,
+      "duration_s": 60.0,
+      "sample_period_ms": 0.01,
+      "mean_current_ma": 20.898010622355972,
+      "min_current_ma": 12.081118,
+      "max_current_ma": 32.563934,
+      "bucket_ms": 50.0,
+      "bucket_count": 1201
+    }
+  }
+}

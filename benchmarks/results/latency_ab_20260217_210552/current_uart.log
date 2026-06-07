@@ -1,0 +1,221 @@
+*** Booting nRF Connect SDK v2.9.2-4ab7b98fc76f ***
+*** Using Zephyr OS v3.7.99-aa34a5632971 ***
+
+===========================
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+*** Booting nRF Connect SDK v2.9.2-4ab7b98fc76f ***
+*** Using Zephyr OS v3.7.99-aa34a5632971 ***
+
+  Config: FFT=257, Mel=40, Frames=49
+  Tensor arena: 50 KB
+
+Initializing AI...
+Tensor arena used: 27204 / 51200 bytes (53.1%)
+AI ready!
+
+=== PRODUCTION MODE ===
+Running deterministic digital input (1 sec frames, no mic hardware)
+To use test data: west build -- -DCONFIG_TEST_MODE=y
+
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 108 ms | Confidence: 98.4%
+False Positive

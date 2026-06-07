@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-02-18T00:18:03.311588+00:00",
+  "uart_log": "benchmarks/results/dual_core_runtime_uart.log",
+  "checks": {
+    "required_markers": {
+      "DSP mode: dual-core offload": true,
+      "Dual-core DSP IPC ready": true
+    },
+    "optional_markers": {
+      "CPUNET DSP service ready": false
+    },
+    "required_markers_pass": true,
+    "inference_sample_count": 18,
+    "inference_samples_pass": true,
+    "inference_mean_ms": 109.0,
+    "overall_pass": true
+  }
+}

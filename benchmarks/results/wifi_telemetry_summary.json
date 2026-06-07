@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-02-21T06:56:14.268236+00:00",
+  "uart_log": "/tmp/wifi_fix_try4_uart.log",
+  "thresholds": {
+    "min_success_count": 5,
+    "min_attempt_count": 5,
+    "max_fail_ratio": 0.2,
+    "max_disconnect_events": 2
+  },
+  "counts": {
+    "udp_sent": 10,
+    "udp_send_failed": 0,
+    "udp_pending": 6,
+    "udp_drop_wifi": 35,
+    "udp_drop_socket": 0,
+    "socket_connected": 3,
+    "wifi_connected": 9,
+    "wifi_disconnected": 0,
+    "ignored_late_116": 0
+  },
+  "metrics": {
+    "attempts": 10,
+    "success_count": 10,
+    "failure_count": 0,
+    "failure_ratio": 0.0
+  },
+  "checks": {
+    "enough_success": true,
+    "enough_attempts": true,
+    "fail_ratio_pass": true,
+    "disconnects_pass": true,
+    "overall_pass": true
+  }
+}

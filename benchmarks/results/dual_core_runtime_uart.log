@@ -1,0 +1,110 @@
+[00:00:37.370,758] [1;31m<err> main: Connection timeout[0m
+WiFi failed - continuing without telemetry
+
+Initializing AI...
+[00:00:00.324,340] [0m<inf> wifi_nrf: Management buffer offload enabled
+[0m
+*** Booting nRF Connect SDK v2.9.2-4ab7b98fc76f ***
+*** Using Zephyr OS v3.7.99-aa34a5632971 ***
+[00:00:00.450,805] [0m<inf> net_config: Initializing network[0m
+[00:00:00.450,805] [0m<inf> net_config: Waiting interface 1 (0x20000c50) to be up...[0m
+[00:00:00.450,897] [0m<inf> net_config: IPv4 address: 172.20.10.10[0m
+
+  Config: FFT=257, Mel=40, Frames=49
+  Tensor arena: 50 KB
+  DSP mode: dual-core offload (cpuapp -> cpunet)
+
+[00:00:00.451,171] [0m<inf> main: === WiFi Init ===[0m
+[00:00:00.451,171] [0m<inf> main: Waiting for WiFi subsystem...[0m
+[00:00:00.452,789] [0m<inf> wifi_supplicant: wpa_supplicant initialized[0m
+[00:00:05.451,263] [0m<inf> main: Connecting...[0m
+[00:00:07.369,720] [0m<inf> wifi_mgmt_ext: Connection requested[0m
+[00:00:37.369,781] [1;31m<err> main: Connection timeout[0m
+WiFi failed - continuing without telemetry
+
+Initializing AI...
+Tensor arena used: 27204 / 51200 bytes (53.1%)
+AI ready!
+
+Dual-core DSP IPC ready!
+
+=== PRODUCTION MODE ===
+Running deterministic digital input (1 sec frames, no mic hardware)
+To use test data: west build -- -DCONFIG_TEST_MODE=y
+
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+[00:00:38.989,868] [1;31m<err> main: WiFi connection failed: -116[0m
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+Inference: 109 ms | Confidence: 98.4%
+False Positive
+
+Test: Live
+[UART_READ_ERROR] [Errno 6] Device not configured
