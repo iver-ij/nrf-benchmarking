@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Isolated Stage Power</title>
+  <desc id="desc">DSP dynamic power is 10.566 milliwatts and neural network dynamic power is 12.151 milliwatts.</desc>
+  <rect width="1600" height="620" fill="#ffffff"/>
+  <text x="70" y="112" font-family="DejaVu Sans, Arial, sans-serif" font-size="40" font-weight="700" fill="#111111">Isolated dynamic power</text>
+  <text x="70" y="148" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="400" fill="#777777">benchmarks/results/isolated_stage_power_summary.json</text>
+  <line x1="220.0" y1="185" x2="220.0" y2="390" stroke="#e8e8e8"/>
+  <text x="220.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">0</text>
+  <line x1="355.0" y1="185" x2="355.0" y2="390" stroke="#e8e8e8"/>
+  <text x="355.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">2</text>
+  <line x1="490.0" y1="185" x2="490.0" y2="390" stroke="#e8e8e8"/>
+  <text x="490.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">4</text>
+  <line x1="625.0" y1="185" x2="625.0" y2="390" stroke="#e8e8e8"/>
+  <text x="625.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">6</text>
+  <line x1="760.0" y1="185" x2="760.0" y2="390" stroke="#e8e8e8"/>
+  <text x="760.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">8</text>
+  <line x1="895.0" y1="185" x2="895.0" y2="390" stroke="#e8e8e8"/>
+  <text x="895.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">10</text>
+  <line x1="1030.0" y1="185" x2="1030.0" y2="390" stroke="#e8e8e8"/>
+  <text x="1030.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">12</text>
+  <line x1="1165.0" y1="185" x2="1165.0" y2="390" stroke="#e8e8e8"/>
+  <text x="1165.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">14</text>
+  <line x1="1300.0" y1="185" x2="1300.0" y2="390" stroke="#e8e8e8"/>
+  <text x="1300.0" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444" text-anchor="middle">16</text>
+  <text x="70" y="432" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="400" fill="#444444">mW</text>
+  <text x="70" y="261" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#111111">DSP only</text>
+  <rect x="220" y="230" width="713.2" height="42" fill="#111111"/>
+  <text x="917.2" y="262" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">10.566 mW</text>
+  <text x="955.2" y="262" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#444444">2.935 mA</text>
+  <text x="70" y="351" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#111111">NN only</text>
+  <rect x="220" y="320" width="820.2" height="42" fill="#444444"/>
+  <text x="1024.2" y="352" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="end">12.151 mW</text>
+  <text x="1062.2" y="352" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="400" fill="#444444">3.375 mA</text>
+  <text x="70" y="509" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Dynamic split</text>
+  <rect x="220" y="490" width="1080" height="28" fill="#444444"/>
+  <rect x="220" y="490" width="502.3" height="28" fill="#111111"/>
+  <text x="220" y="562" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">DSP 46.51%</text>
+  <text x="1300" y="562" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#444444" text-anchor="end">NN 53.49%</text>
+</svg>
