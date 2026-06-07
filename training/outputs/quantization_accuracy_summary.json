@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-05-28T07:58:23.092833+00:00",
+  "dataset_dir": "<local-cache>/nrf-embedded-ml-benchmarks/datasets/speech_commands_v0.02",
+  "fp32_model": "training/outputs/model.keras",
+  "int8_model": "training/outputs/model.tflite",
+  "target_word": "on",
+  "sample_count": 1361,
+  "per_class_limit": 600,
+  "metrics": {
+    "fp32_accuracy_percent": 91.62380602498163,
+    "int8_accuracy_percent": 92.21160911094783,
+    "accuracy_drop_percentage_points": -0.5878030859662005,
+    "max_allowed_drop_percentage_points": 2.0,
+    "pass": true,
+    "fp32_per_class_accuracy_percent": {
+      "silence": 100.0,
+      "unknown": 88.16666666666667,
+      "target": 88.1542699724518
+    },
+    "int8_per_class_accuracy_percent": {
+      "silence": 100.0,
+      "unknown": 88.83333333333333,
+      "target": 89.25619834710744
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-03-07T11:43:43.919933+00:00",
+  "purpose": "Cross-platform DSP equivalence verification",
+  "config": {
+    "sample_rate": 16000,
+    "num_samples": 16000,
+    "fft_size": 512,
+    "window_step": 320,
+    "spectrogram_rows": 49,
+    "num_mel_bins": 40,
+    "epsilon": 1e-06,
+    "abs_tolerance": 0.5,
+    "python_backend": "cmsis"
+  },
+  "mel_filterbank_sanity": {
+    "shape": [
+      257,
+      40
+    ],
+    "non_zero_elements": 247,
+    "sparsity": 0.9759727626459144
+  },
+  "outputs": {
+    "python_reference": "training/outputs/python_reference_spectrogram.txt",
+    "c_reference": "training/outputs/c_reference_spectrogram.txt",
+    "c_reference_bits": "training/outputs/c_reference_spectrogram_bits.txt"
+  },
+  "results": {
+    "status": "ok",
+    "bit_exact": true,
+    "tolerance_pass": true,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "max_rel_diff": 0.0,
+    "mean_rel_diff": 0.0,
+    "max_ulp_diff": 0
+  },
+  "notes": [
+    "bit_exact requires identical math libraries/ordering and is generally not expected across TensorFlow vs CMSIS-DSP",
+    "tolerance_pass is the correct acceptance criterion for cross-platform DSP equivalence",
+    "Using exact float32 bit-patterns from c_reference_bits for C reference."
+  ]
+}
